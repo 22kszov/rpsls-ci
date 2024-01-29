@@ -6,7 +6,6 @@
 
 - [RPSLS](#rpsls)
   - [**Project Description**](#project-description)
-  - [Rock Paper Scissors More! is a simple but fun interactive webgame for users to pass the time with.]
   - [**Features**](#features)
     - [**Existing Features**](#existing-features)
   - [**Design**](#design)
@@ -140,6 +139,7 @@ The website was deployed by pushing to Github and using the pages feature and ca
 - All fonts sourced from fonts.google.com
 - Color palette created using coolors.co
 - Markdown Table of Contents generated using the Auto Markdown TOC extension
+- Javascript inspired by Kenny Yip Coding
 
 ---
 
