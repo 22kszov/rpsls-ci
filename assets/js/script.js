@@ -17,7 +17,7 @@ window.onload = function imagePusher() {
 
     }
 
-}
+};
 
 function selectWeapon() {
 
@@ -36,13 +36,13 @@ function selectWeapon() {
                 opponentScore++;
             } else {
                 if (opponent == "scissors") {
-                    playerScore++
+                    playerScore++;
                 } else {
                     if (opponent == "lizard") {
-                        playerScore++
+                        playerScore++;
                     } else {
                         if (opponent == "spock") {
-                            opponentScore++
+                            opponentScore++;
                         }
                     }
                 }
@@ -53,13 +53,13 @@ function selectWeapon() {
                     opponentScore++;
                 } else {
                     if (opponent == "spock") {
-                        playerScore++
+                        playerScore++;
                     } else {
                         if (opponent == "rock") {
-                            playerScore++
+                            playerScore++;
                         } else {
                             if (opponent == "lizard") {
-                                opponentScore++
+                                opponentScore++;
                             }
                         }
                     }
@@ -70,13 +70,13 @@ function selectWeapon() {
                     opponentScore++;
                 } else {
                     if (opponent == "paper") {
-                    playerScore++
+                    playerScore++;
                         } else {
                             if (opponent == "lizard") {
-                                playerScore++
+                                playerScore++;
                             } else {
                                 if (opponent == "spock") {
-                                    opponentScore++
+                                    opponentScore++;
                                 }
                             }
                         }
@@ -87,13 +87,13 @@ function selectWeapon() {
                             opponentScore++;
                         } else {
                             if (opponent == "spock") {
-                                playerScore++
+                                playerScore++;
                             } else {
                                 if (opponent == "paper") {
-                                    playerScore++
+                                    playerScore++;
                                 } else {
                                     if (opponent == "rock") {
-                                        opponentScore++
+                                        opponentScore++;
                                     }
                                 }
                             }
@@ -104,13 +104,13 @@ function selectWeapon() {
                                 opponentScore++;
                             } else {
                                 if (opponent == "rock") {
-                                    playerScore++
+                                    playerScore++;
                                 } else {
                                     if (opponent == "scissors") {
-                                        playerScore++
+                                        playerScore++;
                                     } else {
                                         if (opponent == "paper") {
-                                            opponentScore++
+                                            opponentScore++;
                                         }
                                     }
                                 }
