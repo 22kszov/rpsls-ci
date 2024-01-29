@@ -1,3 +1,6 @@
+// Javascript inspired by the Kenny Yip Coding"
+
+
 let player;
 let playerScore = 0;
 let opponent;
@@ -5,6 +8,11 @@ let opponentScore = 0;
 
 const weapons = ["rock", "paper", "scissors", "lizard", "spock"]; 
 
+
+/**
+ * Creates image elements for weapon selection
+ * Adds event listener to the weapons
+ */
 window.onload = function imagePusher() {
 
     for (let i = 0; i < 5; i++) {
@@ -19,6 +27,13 @@ window.onload = function imagePusher() {
 
 };
 
+
+/**
+ * Sets weapon image to player choice
+ * Sets weapon image randomised by computer
+ * Checks round winner
+ * Updates player and opponent score
+ */
 function selectWeapon() {
 
     player = this.id;
