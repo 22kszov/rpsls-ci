@@ -17,15 +17,16 @@ body {
     margin-top: 10px;
 }
 
-#choices {
+#weapons {
     width: 400px;
     height: 80px;
-    background-color: green;
     margin: 0 auto;
     margin-top: 10px;
 }
 
-#choices img {
+#weapons img {
     width: 80px;
     height: 80px;
+    background-repeat: no repeat;
+    background-size: 100%;
 }
