@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Meta tags for seo -->
+    <meta name="description" content="Rock, Paper Scissors, More! A fun interactive webgame to pass time!">
+    <meta name="keywords" content="rock paper scissors, rock paper scissors spock lizard, rock paper scissors more, fun, webgame, pass time, minigame">
+
     <!--  css stylesheet  -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -18,13 +22,13 @@
 
 <body>
     <h2 id="opponent-score">0</h2>
-    <img id="opponent-weapon">
+    <img aria-label="Opponents weapon of choice" id="opponent-weapon">
     <br>
-    <img id="player-weapon">
+    <img aria-label="Players weapon of choice" id="player-weapon">
     <h2 id="player-score">0</h2>
     <div id="weapons"></div>
-    <div class="hidden">
-        <p class="rules">
+    <div>
+        <p>
             Scissors cuts paper 
             <br>
             Paper covers rock 
